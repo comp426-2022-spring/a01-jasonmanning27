@@ -19,8 +19,8 @@ const port = args.port || process.env.PORT || 3000
 // The function must read a file located at `./www/index.html` and do some stuff with it.
 // The stuff that should be inside this function is all below.
 
-
-const fs = require('fs')
+// removed this
+// const fs = require('fs')
 
 fs.readFile('./www/index.html', 'utf8', (err, data) => {
     if (err) {
